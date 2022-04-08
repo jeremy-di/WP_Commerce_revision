@@ -1,0 +1,109 @@
+/*
+Theme Name: Hello thème enfant
+Description: Theme enfant de Gibo
+Author: Gibo
+Template: hello-elementor
+Version: 1.0.0
+*/
+
+/* Eléments du body */
+
+body {
+    background-color: rgb(182, 180, 180);
+}
+
+.page-header {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.page-header img {
+    width: 15em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.page-header a {
+    color: #7b0000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.page-header div{
+    width: 90%;
+}
+
+/*--------------------------------------------------*/
+/* Modification d'une catégorie sur l'accueil
+/*--------------------------------------------------*/
+.accueil{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categorie_produit{
+    width: 48%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.5);
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.categorie_produit h2 {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.categorie_produit_item{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categorie_produit_item img{
+    width: 80%;
+    margin-top: 0.5em;
+}
+
+.categorie_produit_item h3, .categorie_produit_item p{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/*--------------------------------------------------*/
+/* Modification d'une archive
+/*--------------------------------------------------*/
+
+#archive_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.archive_item {
+    display: flex;
+    width: 48%;
+    align-items: start;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0.2em 0.2em;
+}
+
+.archive_item img {
+    width: 20%;
+    margin : 1em 0;
+}
+
+.archive_item div {
+    width: 75%;
+    padding: 0 0.5em;
+    color: #fff;
+}
